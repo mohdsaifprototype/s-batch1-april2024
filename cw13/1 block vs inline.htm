@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block vs Inline</title>
+    <style>
+      div {
+        border: 1px solid red;
+        overflow: hidden;
+        margin: 5px;
+      }
+      span {
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam totam
+      reiciendis animi quidem praesentium odit necessitatibus? Accusantium velit
+      dolorem quia sit molestias quisquam voluptate, nostrum fuga unde eaque,
+      voluptates beatae.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quibusdam
+      nemo expedita, odit optio sed! Distinctio reiciendis tempore natus sequi
+      doloremque blanditiis ex nam? Magni velit consequuntur porro nesciunt!
+      Unde!
+    </div>
+    <div>Lorem ipsum dolor sit amet.</div>
+
+    <span>Lorem ipsum dolor sit amet.</span>
+    <span>Lorem ipsum <div>Lorem ipsum dolor sit amet.</div> dolor sit amet.</span>
+
+  </body>
+</html>

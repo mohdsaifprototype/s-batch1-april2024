@@ -1,0 +1,20 @@
+body * {
+  box-sizing: border-box;
+}
+
+span, div{
+  margin: 16px;
+  padding: 8px;
+}
+
+div{
+  background: #7a9fdd;
+  width: 400px;
+  height: 200px;
+}
+
+span{
+  /* display: inline-block; */
+  background: #4df2e9;
+  width: 400px;
+}
