@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>July 18 | CSS Cascading and inheritance</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2rem;
+    }
+
+    h1,
+    h2,
+    p {
+      color: purple;
+    }
+
+    .container div {
+      /* decendent selector */
+      border: 1px solid black;
+    }
+
+    div > div {
+      /* child selector */
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Cascading and inheritance</h1>
+  <div class="container">
+    <h2>A level 2 heading</h2>
+    <p>A paragraph inside container</p>
+    <section>
+      <div>I am a decendent div</div>
+    </section>
+    <div>I am a child div</div>
+  </div>
+  <div class="container">
+    <h2>A level 2 heading</h2>
+    <p>A paragraph inside container</p>
+  </div>
+
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rerum quis numquam. Enim maiores tempora ut
+    consequatur sint, aliquam quibusdam cum. Nesciunt sequi provident repudiandae amet facilis error, voluptatibus
+    recusandae!</div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+main {
+  width: 80%;
+  max-width: 1480px;
+  margin: 0 auto;
+  height: 600px;
+  
+
+  /* For background */
+  background-color: aqua;
+  /* background-color: #00ffff47; */
+
+  background-image: url("background.jpg");
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* top, right, bottom, left, center are the valid properties for background-position */
+  /* background-position: right center; */
+  /* background-position: -100px 30px; */
+  /* background-position: center center; */
+  /* background-position: center; */
+
+  /* background-size: 400px 100px; */
+  /* background-size: contain; */
+  /* background-size: cover; */
+
+  /* overflow-y: scroll; */
+
+  /* opacity: 50%; */
+  /* filter: opacity(0.5); */
+}
