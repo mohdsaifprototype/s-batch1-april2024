@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  outline: 2px solid blue;
+  background-color: #094d4d;
+  padding: 20px 0;
+}
+
+.box{
+  text-align: center;
+  width: 200px;
+  margin: 40px auto;
+  height: 200px;
+  padding-top: 80px;
+  outline-style: solid;
+  outline-color: white;
+}
+
+.box1{
+  background-color: cadetblue;
+  border: 4px solid gold;
+  outline-offset: 8px;
+  outline-width: 8px;
+  border-radius: 50%;
+}
+
+.box2{
+  background-color: coral;
+  outline: 20px groove #d87e90 ;
+}
